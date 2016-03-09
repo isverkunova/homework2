@@ -1,0 +1,87 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Helvetica Neue';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.shop-page {
+    width: 967px;
+    height: 970px;
+    margin: 0 152px 0 153px;
+    padding: 0 46px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+}
+
+/* END shop page */
+
+.logo {
+    font-size: 53px;
+    margin-top: 51px;
+    margin-bottom: 42px;
+    line-height: 36px;
+    margin-left: -4px;
+}
+
+.indent {
+    margin-bottom: 40px;
+}
+
+.top-menu {
+    width: 966px;
+    color: #fff;
+    background: #4E4E4E;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin: 13px 54px 12px 24px;
+    font-size: 16px;
+    }
+
+.sidebar {
+    float: left;
+}
+
+.sidebar-menu {
+    border: 1px solid #bdbdbd;
+}
+
+.sidebar li {
+    width: 216px;
+    padding: 13px 0 12px 22px;
+    border-bottom: 1px solid #bdbdbd;
+    color: #656363;
+    font-size: 13px;
+}
+
+.sidebar li:last-child {
+    border-bottom: 0;
+}
+
+.content {
+    width: 679px;
+    float: right;
+    font-size: 14px;
+}
+
+.product-photo {
+    /* display: block; */
+    width: 500px;
+    padding: 49px 87px 48px 88px;
+    /* margin: 0 auto; */
+    border: 1px solid #c8c8c8;
+}
+
+.footer {
+    clear: both;
+}
+
+.footer-menu {
+    width: 100%;
+    color: #fff;
+    background: #4E4E4E;
+    margin-bottom: 35px;
+    padding: 5px auto;
+}

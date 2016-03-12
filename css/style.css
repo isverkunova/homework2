@@ -41,13 +41,12 @@ a {
 
 .header-menu a {
     display: block;
-    padding: 0 20px;
+    padding: 0 35px;
     color: #fff;
 }
 
 .header-menu li {
     display: inline-block;
-    margin-right: 40px;
     font-size: 16px;
     line-height: 40px;
     text-decoration: none;
@@ -55,7 +54,7 @@ a {
 
 .header-menu a:hover {
     display: inline-block;
-    padding: 0 19px;
+    padding: 0 34px;
     border-right: 1px solid #838383;
     border-left: 1px solid #838383;
     background: #2a2a2a;
@@ -156,3 +155,21 @@ p {
     line-height: 40px;
 }
 /* END footer */
+
+.header-menu .select a:focus {
+    display: inline-block;
+    padding: 0 34px;
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+    background: #2a2a2a;
+}
+
+.sidebar-menu .select a:focus {
+    padding-left: 15px;
+    color: #656363;
+}
+
+.footer-menu .select a:focus {
+    color: #2c2c2c;
+    text-decoration: underline;
+}

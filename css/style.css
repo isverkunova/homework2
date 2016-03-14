@@ -35,6 +35,7 @@ a {
 }
 
 .header-menu {
+    overflow: hidden;
     width: 966px;
     background: #4e4e4e;
 }
@@ -46,7 +47,7 @@ a {
 }
 
 .header-menu li {
-    display: inline-block;
+    float: left;
     font-size: 16px;
     line-height: 40px;
     text-decoration: none;
@@ -121,6 +122,8 @@ p {
 /* END content */
 
 .footer {
+    position: relative;
+    overflow: hidden;
     width: 100%;
     background: #d8d8d8;
 }
@@ -157,7 +160,8 @@ p {
 /* END footer */
 
 .header-menu .select a:focus {
-    display: inline-block;
+    cursor: default;
+    float: left;
     padding: 0 34px;
     border-right: 1px solid #838383;
     border-left: 1px solid #838383;
@@ -165,11 +169,13 @@ p {
 }
 
 .sidebar-menu .select a:focus {
+    cursor: default;
     padding-left: 15px;
     color: #656363;
 }
 
 .footer-menu .select a:focus {
+    cursor: default;
     color: #2c2c2c;
     text-decoration: underline;
 }

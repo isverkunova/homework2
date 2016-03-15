@@ -10,7 +10,7 @@ a {
 }
 
 .shop-page {
-    width: 968px;
+    width: 967px;
     height: 1015px;
     margin: 0 auto;
     padding: 0 46px;
@@ -35,17 +35,17 @@ a {
 }
 
 .header-menu {
-    overflow: hidden;
     width: 966px;
     background: #4e4e4e;
+    overflow: hidden;
 }
 
 .header-menu a {
     display: block;
     padding: 0 35px;
-    color: #fff;
     border-right: 1px solid transparent;
     border-left: 1px solid transparent;
+    color: #fff;
 }
 
 .header-menu li {
@@ -75,7 +75,7 @@ a {
 .sidebar a {
     display: block;
     color: #656363;
-    line-height: 40px;
+    line-height: 39px;
 }
 
 .sidebar li {
@@ -98,14 +98,14 @@ a {
 
 .content {
     width: 679px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     float: right;
     font-size: 14px;
 }
 
 .product-photo {
     width: 500px;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
     padding: 49px 87px 48px 88px;
     border: 1px solid #c8c8c8;
 }
@@ -125,9 +125,9 @@ p {
 
 .footer {
     position: relative;
-    overflow: hidden;
     width: 100%;
     background: #d8d8d8;
+    overflow: hidden;
 }
 
 .footer-menu ul {
@@ -161,23 +161,22 @@ p {
 }
 /* END footer */
 
-.header-menu .select a:focus {
-    cursor: default;
+.header-menu .select a {
     float: left;
-    padding: 0 35px;
     border-right: 1px solid #838383;
     border-left: 1px solid #838383;
     background: #2a2a2a;
+    cursor: default;
 }
 
-.sidebar-menu .select a:focus {
-    cursor: default;
-    padding-left: 15px;
+.sidebar-menu .select a {
+    padding-left: 13px;
     color: #656363;
+    cursor: default;
 }
 
-.footer-menu .select a:focus {
-    cursor: default;
+.footer-menu .select a {
     color: #2c2c2c;
     text-decoration: underline;
+    cursor: default;
 }
